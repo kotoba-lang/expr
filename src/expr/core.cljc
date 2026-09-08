@@ -1,7 +1,7 @@
 (ns expr.core
   "Expression as data: shared infix compilation core."
   (:refer-clojure :exclude [compile])
-  (:require [clojure.string :as str]))
+  (:require [kotoba.lang.text :as str]))
 
 (def binops
   (merge {:+ "+" :- "-" :* "*" :/ "/" :% "%"
