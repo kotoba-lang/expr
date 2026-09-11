@@ -20,5 +20,5 @@ Compatibility namespace:
 Verify:
 
 ```sh
-clojure -M:test
+kbb -M:test
 ```
